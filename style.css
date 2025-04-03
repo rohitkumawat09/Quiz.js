@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+.visible {
+  display: flex;
+}
+
+.options{
+  cursor: pointer;
+}
+
+
+div#wrapper {
+  margin: 30px;
+  text-align: center;
+}
+
+
+
+.screen.screen1  button{
+  padding: 10px;
+  background-color: aqua;
+  font-size: 2  0px;
+}
+
+
+
+
+div#wrapper {
+  display: flex
+;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.option{
+  margin-top: 20px;
+  border: 2px solid;
+  padding: 20px;
+}
+.options{
+  display: flex;
+  justify-content: space-between;
+
+
+}
