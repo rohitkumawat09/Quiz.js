@@ -11,7 +11,6 @@ const questionPara = document.querySelector(".question");
 const timerPara = document.querySelector(".timer");
 const options = document.querySelectorAll(".options p");
 const scoreSpan = document.querySelector(".screen3 span");
-const nextBtn = document.querySelector(".next-btn");
 let questionNumber = 0;
 let timer = 5;
 let score = 0;
@@ -39,7 +38,7 @@ startQuizButton.addEventListener("click", () => {
       } else {
         //RESET TIMER
         timer = 5;
-        timerPara.innerText = timer;
+        timerPara.innerText =   timer;
         //CHANGE QUESTION
         questionNumber++;
         displayQuestionAndOptions();

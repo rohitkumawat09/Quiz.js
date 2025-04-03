@@ -3,50 +3,116 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .hidden {
   display: none;
 }
+
+
 .visible {
   display: flex;
 }
 
-.options{
+
+#wrapper {
+  margin: 30px auto;
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.screen1 button {
+  padding: 15px 30px;
+  background-color: #00bcd4;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-
-div#wrapper {
-  margin: 30px;
-  text-align: center;
+.screen1 button:hover {
+  background-color: #008c9e;
 }
 
 
-
-.screen.screen1  button{
-  padding: 10px;
-  background-color: aqua;
-  font-size: 2  0px;
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5722;
 }
 
-
-
-
-div#wrapper {
-  display: flex
-;
-  justify-content: space-around;
-  font-size: 20px;
+.question {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
 }
 
-.option{
-  margin-top: 20px;
-  border: 2px solid;
-  padding: 20px;
-}
-.options{
+.options {
   display: flex;
-  justify-content: space-between;
-
-
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
 }
+
+.option {
+  padding: 15px;
+  border: 2px solid #333;
+  font-size: 18px;
+  text-align: center;
+  background: white;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+}
+
+.option:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+
+
+.next-btn:hover {
+  background-color: #e68900;
+}
+
+.screen3 h3 {
+  font-size: 26px;
+  color: #4caf50;
+}
+
+.screen3 h4 {
+  font-size: 22px;
+  color: #333;
+}
+
+.screen3 span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5722;
+}
+
+body {
+  background-image: url("https://t4.ftcdn.net/jpg/04/39/13/37/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+p.timer {
+  margin: 20px;
+}
+
+
+~
+h3.question {
+    margin: 20px;
+}
+
