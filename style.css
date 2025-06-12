@@ -6,7 +6,9 @@
 .hidden {
   display: none;
 }
-
+body{
+  font-family: Poppins;
+}
 
 .visible {
   display: flex;
@@ -115,6 +117,7 @@ input[type="text"] {
   height: 50px;
   font-size: 20px;
   width: 200px;
+  padding: 10px;
 }
 h3.question {
     margin: 20px;
