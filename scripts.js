@@ -22,7 +22,7 @@ btn.addEventListener("click", (e) => {
   e.preventDefault();
   const value = input.value.trim();
   if (value === "") {
-    alert("plese enter name");
+    alert("Please Enter Name");
     return;
 }
   const obj = { name: value, date: new Date().toLocaleString(), score: 0 };
